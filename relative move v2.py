@@ -21,6 +21,7 @@ def gooddata(test_data):
     except ValueError:
         return False
     
+    
 def main():
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
